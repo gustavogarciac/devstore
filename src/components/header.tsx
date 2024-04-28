@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export function Header() {
   return (
-    <div className="flex items-center justify-between">
+    <div className="flex flex-col md:flex-row gap-y-6 md:items-center justify-between">
       <div className="flex items-center gap-5">
         <Link href="/" className="text-2xl font-extrabold text-white">
           devstore
