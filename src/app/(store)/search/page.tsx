@@ -26,8 +26,6 @@ const Search = async ({ searchParams }: { searchParams: { q: string } }) => {
 
   const products = await searchProducts(query)
 
-  console.log(products)
-
   return (
     <div className="flex flex-col gap-4">
       <p className="text-sm">
